@@ -1,4 +1,4 @@
-class GenreMusical {
+export class GenreMusical {
 
     constructor(nom, nomCreateur, dateCreation, familleMusical, paysDorigine, pasDeDanse)
     {
@@ -15,5 +15,5 @@ class GenreMusical {
     }
 
 }
-var genrMusical = new GenreMusical("Zouglou","Bilé Didier","1990",""," Gagnoa "," wôyô")
-genrMusical.afficher();
+//var genrMusical = new GenreMusical("Zouglou","Bilé Didier","1990",""," Gagnoa "," wôyô")
+//genrMusical.afficher();

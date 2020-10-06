@@ -1,4 +1,4 @@
- class Artiste {
+ export class Artiste {
     constructor(nom, dateDeNaissance, pays, discographies = []) {
         this.nom = nom;
         this.date = dateDeNaissance;
@@ -11,6 +11,6 @@
 
 }
 
-var nvArtist = new Artiste("Arafat","15/03/1987","C.I.",['Kpangor','Kong','Zropoto']);
-nvArtist.afficher();
+//var nvArtist = new Artiste("Arafat","15/03/1987","C.I.",['Kpangor','Kong','Zropoto']);
+//nvArtist.afficher();
 //console.log(nvArtist.afficher);
